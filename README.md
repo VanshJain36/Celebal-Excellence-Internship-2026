@@ -10,4 +10,4 @@ Step 3: Handle missing values\
 Step 4: Performed basic operations\
 Step 5: Removing duplicates\
 Step 6: Created a derived column\
-Step 7: Saved to new file name as 'cleaned_data.csv'\
+Step 7: Saved to new file name as 'cleaned_data.csv'
