@@ -4,7 +4,7 @@ In this assignment I had taken uncleaned e-commerce data from kaggle and applied
 
 ## Steps followed for conversion
 
-Step 1: Loading CSV dataset into a Pandas DataFrame.
+Step 1: Loading CSV dataset('combined_dateset.csv') into a Pandas DataFrame.
 Step 2: Exploring data
 Step 3: Handle missing values
 Step 4: Performed basic operations
