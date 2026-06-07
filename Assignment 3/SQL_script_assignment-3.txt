@@ -1,0 +1,223 @@
+create database superstore_raw;
+use superstore_raw;
+
+CREATE TABLE sample_superstore_raw (
+    `Row ID` INT,
+    `Order ID` VARCHAR(30),
+    `Order Date` VARCHAR(20),
+    `Ship Date` VARCHAR(20),
+    `Ship Mode` VARCHAR(50),
+
+    `Customer ID` VARCHAR(30),
+    `Customer Name` VARCHAR(100),
+    Segment VARCHAR(50),
+
+    Country VARCHAR(100),
+    City VARCHAR(100),
+    State VARCHAR(100),
+
+    `Postal Code` VARCHAR(20),
+    Region VARCHAR(50),
+
+    `Product ID` VARCHAR(50),
+    Category VARCHAR(50),
+    `Sub-Category` VARCHAR(50),
+    `Product Name` VARCHAR(255),
+
+    Sales DECIMAL(12,4),
+    Quantity INT,
+    Discount DECIMAL(5,2),
+    Profit DECIMAL(12,4)
+);
+select * from sample_superstore_raw limit 5;
+
+CREATE TABLE customers (
+    customer_key INT AUTO_INCREMENT PRIMARY KEY,
+    customer_id VARCHAR(20),
+    customer_name VARCHAR(100),
+    segment VARCHAR(50),
+    country VARCHAR(100),
+    city VARCHAR(100),
+    state VARCHAR(100),
+    postal_code VARCHAR(20),
+    region VARCHAR(50)
+);
+INSERT INTO customers
+(
+    customer_id,
+    customer_name,
+    segment,
+    country,
+    city,
+    state,
+    postal_code,
+    region
+)
+SELECT DISTINCT
+    `Customer ID`,
+    `Customer Name`,
+    Segment,
+    Country,
+    City,
+    State,
+    `Postal Code`,
+    Region
+FROM sample_superstore_raw;
+
+CREATE TABLE products (
+	product_key INT AUTO_INCREMENT PRIMARY KEY,
+    product_id VARCHAR(30),
+    category VARCHAR(50),
+    sub_category VARCHAR(50),
+    product_name VARCHAR(255)
+);
+INSERT INTO products
+(
+    product_id,
+    category,
+    sub_category,
+    product_name
+)
+SELECT DISTINCT
+    `Product ID`,
+    Category,
+    `Sub-Category`,
+    `Product Name`
+FROM sample_superstore_raw;
+
+CREATE TABLE orders (
+    order_item_id INT AUTO_INCREMENT PRIMARY KEY,
+    row_id INT,
+    order_id VARCHAR(30),
+    order_date DATE,
+    ship_date DATE,
+    ship_mode VARCHAR(50),
+
+    customer_id VARCHAR(20),
+    product_id VARCHAR(30),
+
+    sales DECIMAL(15,4),
+    quantity INT,
+    discount DECIMAL(5,2),
+    profit DECIMAL(15,4)
+);
+INSERT INTO orders
+(
+    row_id,
+    order_id,
+    order_date,
+    ship_date,
+    ship_mode,
+    customer_id,
+    product_id,
+    sales,
+    quantity,
+    discount,
+    profit
+)
+SELECT
+    `Row ID`,
+    `Order ID`,
+    STR_TO_DATE(`Order Date`, '%m/%d/%Y'),
+    STR_TO_DATE(`Ship Date`, '%m/%d/%Y'),
+    `Ship Mode`,
+    `Customer ID`,
+    `Product ID`,
+    Sales,
+    Quantity,
+    Discount,
+    Profit
+FROM sample_superstore_raw;
+
+select * 
+from orders 
+where sales > (select avg(sales) from orders)
+limit 50;
+
+select order_id, customer_id
+from orders
+where sales in (select max(sales) from orders group by customer_id)
+group by customer_id
+limit 50;
+
+with cte as(
+	select customer_id, sum(sales) as total_sales
+    from orders
+    group by customer_id
+)
+select * from cte
+limit 50;
+
+with cte as(
+	select customer_id, sum(sales) as total_sales
+    from orders
+    group by customer_id
+)
+select * from cte
+where total_sales >= (select avg(total_sales) from cte)
+limit 50;
+
+select customer_id, sum(sales) as total_sales, 
+rank() over(order by sum(sales) desc) as customer_rank
+from orders
+GROUP BY customer_id;
+
+select customer_id, order_id, 
+row_number() over(partition by customer_id order by order_id) as order_row_number
+from orders
+limit 50;
+
+select customer_id, sum(sales) as total_sales, 
+dense_rank() over(order by sum(sales) desc) as customer_rank
+from orders
+GROUP BY customer_id
+order by customer_rank asc
+limit 3;
+
+with cte as(
+select c.customer_name, sum(o.sales) as total_sales, 
+dense_rank() over(order by sum(sales) desc) as customer_rank
+from orders o
+join customers c on
+o.customer_id = c.customer_id
+GROUP BY customer_name
+order by customer_rank desc
+)
+select * from cte
+limit 50;
+
+--  Mini project customer sales insights
+
+with cte as(
+select c.customer_name, sum(o.sales) as total_sales, 
+dense_rank() over(order by sum(sales) desc) as customer_rank
+from orders o
+join customers c on
+o.customer_id = c.customer_id
+GROUP BY customer_name
+order by customer_rank desc
+)
+select * from cte
+limit 50;
+
+SELECT
+customer_id
+FROM orders
+GROUP BY customer_id
+HAVING COUNT(DISTINCT order_id) = 1;
+
+select customer_id
+from orders 
+where sales > (select avg(sales) from orders)
+limit 50;
+
+select order_id, customer_id
+from orders
+where sales in (select max(sales) from orders group by customer_id)
+group by customer_id
+limit 50;
+
+select customer_id, max(sales) from orders 
+group by customer_id
+order by max(sales) desc
+limit 50;
