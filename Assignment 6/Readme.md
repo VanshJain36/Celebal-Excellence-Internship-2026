@@ -101,6 +101,8 @@ spark-assignment/
 ├── notebooks/
 │   ├── spark_assignment.ipynb
 │   └── spark_assignment theory.docx
+|
+|
 ├── output
 │   └── parquet file
 │
