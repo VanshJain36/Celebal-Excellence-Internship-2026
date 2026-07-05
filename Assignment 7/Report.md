@@ -2,11 +2,11 @@
 
 ## Objective
 
-The objective of this project was to implement incremental data processing using Delta Lake in Databricks by simulating real-world data ingestion and update scenarios.
+The objective of this assignment was to implement incremental data processing using Delta Lake in Databricks.
 
 ## Dataset
 
-The project uses the Sample Superstore dataset. The dataset was divided into two separate files:
+The assignment uses the Sample Superstore dataset. The dataset was divided into two separate files:
 
 * **Initial Dataset:** Contains approximately 50% of the original records and was used for the initial load.
 * **Incremental Dataset:** Contains the remaining records along with a few modified records to simulate updates in existing data.
@@ -24,7 +24,7 @@ Basic data quality checks were performed:
 * Removed null values.
 * Removed duplicate records.
 
-### 3. Incremental Data Simulation
+### 3. Incremental Data Load
 
 A second dataset was created to represent newly arrived data. This dataset contained:
 
@@ -42,9 +42,8 @@ Delta Lake's MERGE operation was used to:
 
 The incremental load was validated using:
 
-* Row count comparison before and after MERGE.
+* Row count after MERGE.
 * Duplicate record checks.
-* Verification of updated records.
 * Delta transaction history.
 
 ## Results
@@ -56,4 +55,4 @@ The incremental load was validated using:
 
 ## Conclusion
 
-This project demonstrates how Delta Lake can be used to implement incremental data processing and upsert operations efficiently in Databricks. The implementation follows an SCD Type 1 update pattern where existing records are overwritten with the latest values while new records are inserted into the target table.
+This assignment demonstrates how Delta Lake can be used to implement incremental data processing in Databricks. The implementation follows an SCD Type 1 update pattern where existing records are overwritten with the latest values while new records are inserted into the target table.
