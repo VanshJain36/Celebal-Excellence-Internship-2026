@@ -98,6 +98,8 @@ The assignment follows an SCD Type 1 approach where:
 │   ├── validation.png
 │   └── final_output.png
 │
+├── Report.md
+│
 └── README.md
 ```
 
