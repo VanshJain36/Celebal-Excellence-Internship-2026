@@ -1,6 +1,6 @@
 # E-Commerce Order Analytics System
 
-This is an intern mini-project that simulates a real (but messy)
+This mini-project simulates a real (but messy)
 e-commerce dataset, cleans it, loads it into a SQL database, and
 produces business reports — all built with Python and SQL.
 
@@ -11,11 +11,6 @@ problem-solving.
 ---
 
 ## 1. Project Overview
-
-You are joining a company that processes online orders. The raw data
-comes from multiple sources and is messy: missing customer IDs, badly
-formatted dates, messy product names, invalid emails, negative
-quantities (returns), and even a few broken links between tables.
 
 This project is split into 5 parts, all built locally with Python and
 SQLite:
@@ -50,9 +45,9 @@ Ecommerce_Order_Analytics/
 │   └── tests.py               # Part 5: edge case test functions
 │
 ├── sql/
-│   ├── basic_queries.sql        # Queries 1-3
-│   ├── intermediate_queries.sql # Queries 4-6
-│   └── advanced_queries.sql     # Queries 7-16 (window functions, CTEs)
+│   ├── basic_queries.sql        
+│   ├── intermediate_queries.sql 
+│   └── advanced_queries.sql     
 │
 ├── database/
 │   └── ecommerce.db           # created after running load_sqlite.py
@@ -66,33 +61,11 @@ Ecommerce_Order_Analytics/
 
 ---
 
-## 3. Installation
-
-You need Python 3.8 or newer.
-
-1. (Optional but recommended) create a virtual environment:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate      # on Windows: venv\Scripts\activate
-   ```
-
-2. Install the only external dependency (pandas):
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   SQLite support (`sqlite3`) comes built into Python's standard
-   library, so nothing extra needs to be installed for that.
-
----
-
-## 4. Execution Order
+## 3. Execution Order
 
 Run everything from inside the `scripts/` folder, in this order:
 
 ```bash
-cd Ecommerce_Order_Analytics/scripts
-
 # Part 1: generate the raw, messy CSV files
 python3 generate_customers.py
 python3 generate_products.py
@@ -125,7 +98,7 @@ python3 tests.py
 
 ---
 
-## 5. What Each Part Produces
+## 4. What Each Part Produces
 
 ### Part 1 — Data Generation
 Creates 4 CSV files in `data/raw/`, each with 500+ rows and these
@@ -192,53 +165,9 @@ console.
 
 ---
 
-## 6. SQL Execution Instructions
+## 5. SQL Execution Instructions
 
 After running `load_sqlite.py`, you can run any query in the `sql/`
 folder directly against `database/ecommerce.db`.
 
-**Option A — sqlite3 command line:**
-```bash
-sqlite3 database/ecommerce.db
-.read sql/basic_queries.sql
-.read sql/intermediate_queries.sql
-.read sql/advanced_queries.sql
-```
-
-**Option B — any SQLite GUI tool** (e.g. DB Browser for SQLite):
-Open `database/ecommerce.db`, then copy/paste any single query from
-the `.sql` files into the query editor and run it.
-
-**Option C — from Python:**
-```python
-import sqlite3
-connection = sqlite3.connect("database/ecommerce.db")
-cursor = connection.cursor()
-cursor.execute("SELECT * FROM orders LIMIT 5;")
-print(cursor.fetchall())
-```
-
 ---
-
-## 7. Screenshots
-
-*(Add screenshots here once you've run the project, for example:)*
-
-- `screenshots/data_generation_output.png` — terminal output of Part 1
-- `screenshots/data_quality_report.png` — the report from Part 2
-- `screenshots/sql_query_results.png` — a sample query result from Part 3
-- `screenshots/cli_report_tool.png` — the interactive report from Part 4
-- `screenshots/tests_passing.png` — all edge case tests passing from Part 5
-
----
-
-## 8. Notes for Reviewers / Interviewers
-
-- All code uses simple, beginner-friendly constructs: loops,
-  dictionaries, lists, and plain functions (no classes, decorators, or
-  advanced patterns), so it's easy to read and explain line by line.
-- Every script can be run independently as long as the earlier steps
-  in the execution order have already been run once.
-- The data generation scripts use a fixed random seed, so re-running
-  them produces the same dataset every time (useful for reproducible
-  testing and demos).
