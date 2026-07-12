@@ -1,0 +1,14 @@
+DATA QUALITY REPORT
+====================
+
+clean_orders(): fixed 40 rows with wrong date format
+clean_orders(): found 25 rows with missing customer_id (set to UNKNOWN)
+clean_products(): cleaned 99 messy product names (spaces/case fixed)
+validate_emails(): found 10 customers with invalid email addresses
+check_referential_integrity(): found 139 order_items rows pointing to an order_id that does not exist
+
+Customer ids with invalid emails:
+[13, 53, 58, 72, 115, 126, 141, 328, 378, 380]
+
+Item ids with broken order_id reference:
+[2, 12, 14, 15, 16, 17, 20, 23, 25, 28, 35, 36, 43, 47, 48, 49, 52, 58, 59, 76, 79, 80, 88, 89, 92, 94, 96, 97, 104, 112, 113, 114, 116, 123, 125, 138, 146, 152, 156, 158, 163, 165, 166, 167, 173, 179, 180, 181, 182, 184, 187, 190, 200, 208, 210, 213, 214, 217, 218, 220, 222, 223, 228, 234, 235, 240, 242, 244, 245, 248, 251, 253, 255, 259, 261, 263, 266, 270, 272, 283, 284, 286, 306, 309, 312, 315, 320, 324, 325, 330, 334, 336, 338, 344, 352, 353, 355, 356, 365, 366, 368, 372, 379, 380, 381, 382, 383, 384, 387, 389, 400, 407, 416, 419, 421, 425, 427, 428, 430, 432, 442, 443, 448, 449, 452, 457, 460, 463, 465, 466, 473, 478, 479, 480, 483, 484, 490, 494, 500]
