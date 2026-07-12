@@ -55,7 +55,6 @@ Ecommerce_Order_Analytics/
 ├── reports/
 │   └── data_quality_report.txt # created after running clean_data.py
 │
-├── requirements.txt
 └── README.md
 ```
 
