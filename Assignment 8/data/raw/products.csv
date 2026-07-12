@@ -1,0 +1,521 @@
+product_id,product_name,category,subcategory,cost_price
+1,Science Textbook 197,Books,Academic,3537.63
+2,Laptop Pro 678,Electronics,Accessories,1178.1
+3,Casual Sneakers 82,Clothing,Footwear,4283.82
+4,USB Cable 390,Electronics,Mobiles,1425.97
+5,Comic Book 855,Books,Children,1855.92
+6,Dinner Set 364,Home,Decor,1087.06
+7,Running Shoes 719,Clothing,Women,4686.44
+8,Travel Guide 74,Books,Children,3065.2
+9,Smart Watch 547,Electronics,Mobiles,3659.18
+10,Smart Watch 474,Electronics,Mobiles,1928.3
+11,Comic Book 705,Books,Children,2806.9
+12,Leather Belt 864,Clothing,Men,3853.15
+13,Laptop Air 235,Electronics,Laptops,4117.92
+14,Leather Belt 411,Clothing,Men,1375.32
+15,Denim Jeans 936,Clothing,Women,4717.4
+16,Leather Belt 218,Clothing,Men,3294.42
+17,Study Table 906,Home,Furniture,4577.01
+18,Pillow Set 147,Home,Kitchen,1361.16
+19,summer dress 763,Clothing,Women,2828.77
+20,Winter Jacket 765,Clothing,Footwear,2943.7
+21,Cook Book 409,Books,Fiction,1841.88
+22,DSLR Camera 522,Electronics,Cameras,2492.9
+23,Laptop Air 882,Electronics,Laptops,592.76
+24,Comic Book 164,Books,Children,3970.79
+25,Table Lamp 611,Home,Decor,364.46
+26,Wooden Chair 611,Home,Decor,4980.8
+27,Self Help Guide 258,Books,Children,4856.84
+28,Smartphone X1 697,Electronics,Mobiles,3617.57
+29,Fairy Tales Collection 769,Books,Children,1370.78
+30,Travel Guide 349,Books,Children,602.18
+31,Table Lamp 162,Home,Decor,2295.93
+32,Winter Jacket 996,Clothing,Footwear,2527.9
+33,Tablet Mini 520,Electronics,Mobiles,4567.51
+34,Comic Book 306,Books,Children,4216.26
+35,Mystery Novel 624,Books,Children,1034.61
+36,Dinner Set 781,Home,Decor,849.67
+37,Self Help Guide 941,Books,Children,52.83
+38,Leather Belt 501,Clothing,Men,146.41
+39,DINNER SET 900,Home,Decor,4927.34
+40,Kids T-Shirt 246,Clothing,Kids,336.73
+41,   Science Textbook 970   ,Books,Academic,439.85
+42,Storage Box 836,Home,Kitchen,392.6
+43,fairy tales collection 785,Books,Children,672.51
+44,Curtain Set 970,Home,Bedding,2771.53
+45,Winter Jacket 541,Clothing,Footwear,4368.54
+46,Table Lamp 988,Home,Decor,1098.4
+47,Fairy Tales Collection 774,Books,Children,3663.16
+48,Cotton T-Shirt 731,Clothing,Women,1593.0
+49,Travel Guide 383,Books,Children,2218.6
+50,Self Help Guide 463,Books,Children,648.97
+51,Formal Shirt 66,Clothing,Men,1723.52
+52,Cook Book 568,Books,Fiction,1189.07
+53,Formal Shirt 8,Clothing,Men,401.42
+54,COMIC BOOK 61,Books,Children,1183.26
+55,Laptop Pro 881,Electronics,Accessories,1685.62
+56,Mystery Novel 244,Books,Children,1428.46
+57,Storage Box 220,Home,Kitchen,2719.21
+58,SCIENCE TEXTBOOK 591,Books,Academic,2389.72
+59,curtain set 827,Home,Bedding,2064.95
+60,USB Cable 100,Electronics,Mobiles,3311.96
+61,Non Stick Pan 434,Home,Bedding,2084.96
+62,Laptop Air 690,Electronics,Laptops,3284.6
+63,Travel Guide 101,Books,Children,350.03
+64,WOOLEN SWEATER 820,Clothing,Women,4315.28
+65,Summer Dress 197,Clothing,Women,991.53
+66,Cotton Bedsheet 144,Home,Kitchen,2138.31
+67,Running Shoes 474,Clothing,Women,1286.54
+68,wireless mouse 454,Electronics,Laptops,4049.71
+69,History Textbook 101,Books,Fiction,300.41
+70,   Fairy Tales Collection 857   ,Books,Children,123.05
+71,Bluetooth Headphones 949,Electronics,Laptops,3780.15
+72,Summer Dress 171,Clothing,Women,2061.75
+73,Curtain Set 219,Home,Bedding,4330.02
+74,Laptop Air 169,Electronics,Laptops,1925.92
+75,Wooden Chair 272,Home,Decor,4636.26
+76,PILLOW SET 293,Home,Kitchen,2143.89
+77,History Textbook 678,Books,Fiction,3606.12
+78,Action Camera 195,Electronics,Mobiles,1518.7
+79,   Laptop Air 594   ,Electronics,Laptops,3691.9
+80,Laptop Air 766,Electronics,Laptops,1602.34
+81,Laptop Air 599,Electronics,Laptops,2410.1
+82,Self Help Guide 162,Books,Children,331.55
+83,Mystery Novel 83,Books,Children,4264.15
+84,wireless mouse 610,Electronics,Laptops,386.41
+85,Summer Dress 414,Clothing,Women,643.44
+86,Science Textbook 253,Books,Academic,2915.65
+87,laptop pro 635,Electronics,Accessories,455.82
+88,Cook Book 579,Books,Fiction,2637.77
+89,Winter Jacket 210,Clothing,Footwear,3365.14
+90,Leather Belt 245,Clothing,Men,1364.79
+91,DSLR Camera 688,Electronics,Cameras,3245.23
+92,Pillow Set 324,Home,Kitchen,4648.64
+93,wireless mouse 10,Electronics,Laptops,2318.51
+94,Science Textbook 103,Books,Academic,412.64
+95,Denim Jeans 519,Clothing,Women,1362.74
+96,non stick pan 903,Home,Bedding,390.52
+97,SUMMER DRESS 379,Clothing,Women,1460.69
+98,Cotton Bedsheet 854,Home,Kitchen,2738.93
+99,Kids T-Shirt 627,Clothing,Kids,4920.07
+100,Travel Guide 542,Books,Children,88.72
+101,History Textbook 307,Books,Fiction,4662.19
+102,USB Cable 962,Electronics,Mobiles,4396.73
+103,Winter Jacket 119,Clothing,Footwear,4454.08
+104,History Textbook 160,Books,Fiction,1398.12
+105,Biography 216,Books,Academic,3602.18
+106,denim jeans 704,Clothing,Women,3189.48
+107,Winter Jacket 518,Clothing,Footwear,2468.23
+108,Laptop Air 95,Electronics,Laptops,3189.71
+109,Running Shoes 46,Clothing,Women,67.55
+110,DSLR Camera 653,Electronics,Cameras,4900.0
+111,Smart Watch 760,Electronics,Mobiles,2237.09
+112,Table Lamp 575,Home,Decor,97.87
+113,Wireless Mouse 968,Electronics,Laptops,4421.38
+114,Action Camera 559,Electronics,Mobiles,228.34
+115,Dinner Set 597,Home,Decor,2785.0
+116,Table Lamp 131,Home,Decor,257.05
+117,Dinner Set 921,Home,Decor,4668.79
+118,Laptop Pro 921,Electronics,Accessories,1821.16
+119,Summer Dress 683,Clothing,Women,558.83
+120,History Textbook 906,Books,Fiction,4379.83
+121,Poetry Collection 768,Books,Fiction,815.04
+122,Summer Dress 886,Clothing,Women,854.38
+123,Tablet Mini 903,Electronics,Mobiles,2090.86
+124,Tablet Mini 755,Electronics,Mobiles,4626.21
+125,Wall Clock 822,Home,Furniture,3366.04
+126,Summer Dress 274,Clothing,Women,838.03
+127,USB Cable 392,Electronics,Mobiles,4367.23
+128,Curtain Set 228,Home,Bedding,1037.89
+129,Pillow Set 359,Home,Kitchen,1560.69
+130,Formal Shirt 229,Clothing,Men,167.14
+131,   Cotton T-Shirt 409   ,Clothing,Women,1674.9
+132,Wireless Mouse 991,Electronics,Laptops,3877.97
+133,   Non Stick Pan 657   ,Home,Bedding,2571.56
+134,Fairy Tales Collection 340,Books,Children,4699.22
+135,Power Bank 899,Electronics,Mobiles,4853.48
+136,Tablet Mini 595,Electronics,Mobiles,4814.54
+137,Winter Jacket 40,Clothing,Footwear,586.59
+138,Table Lamp 354,Home,Decor,3656.3
+139,Leather Belt 447,Clothing,Men,3050.73
+140,Mystery Novel 119,Books,Children,1956.72
+141,science textbook 195,Books,Academic,1310.88
+142,Table Lamp 2,Home,Decor,2623.61
+143,Fairy Tales Collection 704,Books,Children,3611.18
+144,Cotton T-Shirt 373,Clothing,Women,2184.92
+145,woolen sweater 639,Clothing,Women,1603.88
+146,Power Bank 738,Electronics,Mobiles,4505.23
+147,Mystery Novel 317,Books,Children,3351.12
+148,Leather Belt 413,Clothing,Men,3501.18
+149,History Textbook 131,Books,Fiction,999.61
+150,Wooden Chair 694,Home,Decor,3753.27
+151,Tablet Mini 631,Electronics,Mobiles,2867.07
+152,Study Table 562,Home,Furniture,4176.94
+153,Kids T-Shirt 294,Clothing,Kids,1090.4
+154,   Cook Book 622   ,Books,Fiction,3290.79
+155,   Pillow Set 453   ,Home,Kitchen,2238.69
+156,Denim Jeans 524,Clothing,Women,2392.27
+157,Smart Watch 675,Electronics,Mobiles,469.74
+158,Mystery Novel 680,Books,Children,3183.06
+159,Woolen Sweater 96,Clothing,Women,4101.2
+160,Summer Dress 689,Clothing,Women,1586.58
+161,Cotton T-Shirt 151,Clothing,Women,170.91
+162,Summer Dress 487,Clothing,Women,3075.81
+163,WIRELESS MOUSE 467,Electronics,Laptops,2101.48
+164,Comic Book 590,Books,Children,1012.45
+165,Wooden Chair 507,Home,Decor,2028.28
+166,Action Camera 672,Electronics,Mobiles,3453.73
+167,USB Cable 798,Electronics,Mobiles,2154.47
+168,Tablet Mini 824,Electronics,Mobiles,4791.93
+169,Self Help Guide 476,Books,Children,298.58
+170,Summer Dress 940,Clothing,Women,4249.26
+171,Pillow Set 137,Home,Kitchen,4017.01
+172,Self Help Guide 573,Books,Children,2997.49
+173,Cotton Bedsheet 628,Home,Kitchen,4084.28
+174,Mystery Novel 437,Books,Children,4161.32
+175,History Textbook 457,Books,Fiction,4491.18
+176,Curtain Set 461,Home,Bedding,1333.0
+177,SUMMER DRESS 861,Clothing,Women,3206.42
+178,Self Help Guide 497,Books,Children,3152.4
+179,Running Shoes 451,Clothing,Women,433.54
+180,Casual Sneakers 241,Clothing,Footwear,1394.99
+181,Leather Belt 915,Clothing,Men,2723.75
+182,DSLR Camera 155,Electronics,Cameras,1194.74
+183,Action Camera 724,Electronics,Mobiles,1109.07
+184,Wall Clock 418,Home,Furniture,1687.86
+185,pillow SET 426,Home,Kitchen,358.22
+186,Wall Clock 399,Home,Furniture,4528.95
+187,Cook Book 969,Books,Fiction,3492.84
+188,Science Textbook 390,Books,Academic,2411.05
+189,Non Stick Pan 306,Home,Bedding,3779.7
+190,Wall Clock 552,Home,Furniture,3750.2
+191,Fairy Tales Collection 820,Books,Children,3036.1
+192,Formal Shirt 500,Clothing,Men,1136.14
+193,TABLE LAMP 498,Home,Decor,193.67
+194,Woolen Sweater 685,Clothing,Women,3411.75
+195,Study Table 742,Home,Furniture,866.97
+196,Pillow Set 942,Home,Kitchen,681.76
+197,   Poetry Collection 547   ,Books,Fiction,183.48
+198,Study Table 607,Home,Furniture,2843.74
+199,Smartphone Z2 86,Electronics,Mobiles,3231.61
+200,DSLR Camera 888,Electronics,Cameras,2335.41
+201,Laptop Air 267,Electronics,Laptops,1926.56
+202,Denim Jeans 466,Clothing,Women,1667.89
+203,Wooden Chair 285,Home,Decor,3772.45
+204,Wall Clock 259,Home,Furniture,4182.81
+205,Curtain Set 20,Home,Bedding,3757.67
+206,Laptop Air 975,Electronics,Laptops,1782.3
+207,Travel Guide 71,Books,Children,3917.1
+208,Travel Guide 42,Books,Children,3783.45
+209,Summer Dress 205,Clothing,Women,4204.18
+210,Poetry Collection 157,Books,Fiction,1230.8
+211,Curtain Set 686,Home,Bedding,616.23
+212,Denim Jeans 477,Clothing,Women,3512.35
+213,Dinner Set 172,Home,Decor,3049.17
+214,Power Bank 797,Electronics,Mobiles,4105.54
+215,Kids T-Shirt 111,Clothing,Kids,2914.49
+216,Kids T-Shirt 590,Clothing,Kids,3402.87
+217,Wooden Chair 407,Home,Decor,4710.28
+218,Cotton T-Shirt 78,Clothing,Women,2980.88
+219,Comic Book 249,Books,Children,554.41
+220,KIDS T-SHIRT 871,Clothing,Kids,3437.08
+221,Power Bank 816,Electronics,Mobiles,4920.03
+222,Laptop Pro 356,Electronics,Accessories,2687.09
+223,Dinner Set 71,Home,Decor,2554.51
+224,Woolen Sweater 13,Clothing,Women,4255.4
+225,Storage Box 109,Home,Kitchen,2195.94
+226,Dinner Set 651,Home,Decor,4463.3
+227,Pillow Set 725,Home,Kitchen,807.31
+228,Tablet Mini 752,Electronics,Mobiles,2632.65
+229,Travel Guide 277,Books,Children,3098.77
+230,Fairy Tales Collection 794,Books,Children,2443.31
+231,Table Lamp 846,Home,Decor,3668.58
+232,running shoes 331,Clothing,Women,4265.98
+233,Bluetooth Headphones 286,Electronics,Laptops,4414.07
+234,Summer Dress 769,Clothing,Women,2350.31
+235,Poetry Collection 685,Books,Fiction,1926.0
+236,Smartphone Z2 507,Electronics,Mobiles,4262.22
+237,Tablet Mini 500,Electronics,Mobiles,1099.99
+238,Winter Jacket 349,Clothing,Footwear,1434.31
+239,Biography 719,Books,Academic,4406.53
+240,History Textbook 11,Books,Fiction,2607.3
+241,Cotton T-Shirt 88,Clothing,Women,1244.71
+242,Wall Clock 501,Home,Furniture,2798.12
+243,Summer Dress 708,Clothing,Women,2406.66
+244,Storage Box 459,Home,Kitchen,3975.02
+245,Bluetooth Headphones 302,Electronics,Laptops,1146.9
+246,Summer Dress 314,Clothing,Women,3336.6
+247,Dinner Set 485,Home,Decor,2789.69
+248,Non Stick Pan 436,Home,Bedding,4983.33
+249,History Textbook 339,Books,Fiction,1791.46
+250,Pillow Set 278,Home,Kitchen,1567.78
+251,Formal Shirt 124,Clothing,Men,3620.36
+252,Leather Belt 123,Clothing,Men,3727.26
+253,Tablet Mini 197,Electronics,Mobiles,1121.1
+254,curtain set 284,Home,Bedding,3636.7
+255,Self Help Guide 612,Books,Children,1450.84
+256,USB Cable 853,Electronics,Mobiles,1010.88
+257,Formal Shirt 370,Clothing,Men,938.24
+258,Smartphone X1 726,Electronics,Mobiles,2693.97
+259,   Running Shoes 47   ,Clothing,Women,4872.76
+260,History Textbook 300,Books,Fiction,3502.22
+261,DSLR Camera 654,Electronics,Cameras,4348.88
+262,Storage Box 106,Home,Kitchen,4369.96
+263,Science Textbook 292,Books,Academic,2373.51
+264,Cotton Bedsheet 349,Home,Kitchen,962.6
+265,Laptop Air 259,Electronics,Laptops,4708.26
+266,Curtain Set 117,Home,Bedding,4119.47
+267,Study Table 504,Home,Furniture,416.71
+268,Comic Book 703,Books,Children,315.36
+269,Action Camera 831,Electronics,Mobiles,2836.06
+270,Kids T-Shirt 88,Clothing,Kids,4969.89
+271,Power Bank 572,Electronics,Mobiles,3834.0
+272,Biography 611,Books,Academic,3964.17
+273,Formal Shirt 795,Clothing,Men,2636.73
+274,Cotton Bedsheet 931,Home,Kitchen,2241.47
+275,Cook Book 440,Books,Fiction,1561.63
+276,Poetry Collection 62,Books,Fiction,3067.67
+277,USB Cable 971,Electronics,Mobiles,3825.55
+278,Comic Book 217,Books,Children,1360.0
+279,Bluetooth Headphones 161,Electronics,Laptops,1237.33
+280,History Textbook 77,Books,Fiction,824.84
+281,Wall Clock 462,Home,Furniture,3462.39
+282,CURTAIN SET 299,Home,Bedding,211.57
+283,Casual Sneakers 724,Clothing,Footwear,1449.46
+284,Pillow Set 73,Home,Kitchen,3452.56
+285,Winter Jacket 807,Clothing,Footwear,3966.68
+286,Cook Book 678,Books,Fiction,4029.33
+287,Cotton T-Shirt 436,Clothing,Women,618.14
+288,Formal Shirt 664,Clothing,Men,787.5
+289,Running Shoes 847,Clothing,Women,754.07
+290,   Laptop Air 170   ,Electronics,Laptops,3973.51
+291,biography 767,Books,Academic,4129.99
+292,Casual Sneakers 450,Clothing,Footwear,665.55
+293,Kids T-Shirt 717,Clothing,Kids,2042.42
+294,running shoes 513,Clothing,Women,2722.91
+295,Cotton Bedsheet 83,Home,Kitchen,3010.28
+296,Table Lamp 753,Home,Decor,1645.49
+297,Winter Jacket 27,Clothing,Footwear,502.07
+298,Science Textbook 602,Books,Academic,4756.39
+299,Running Shoes 591,Clothing,Women,249.15
+300,Tablet Mini 482,Electronics,Mobiles,2618.87
+301,Cotton Bedsheet 939,Home,Kitchen,1426.88
+302,Cook Book 447,Books,Fiction,3192.18
+303,Storage Box 993,Home,Kitchen,501.65
+304,Non Stick Pan 419,Home,Bedding,1699.88
+305,USB Cable 879,Electronics,Mobiles,846.08
+306,Wall Clock 711,Home,Furniture,2502.57
+307,Study Table 834,Home,Furniture,3814.47
+308,Laptop Pro 466,Electronics,Accessories,485.9
+309,Winter Jacket 332,Clothing,Footwear,623.81
+310,Study Table 886,Home,Furniture,2597.25
+311,SMARTPHONE X1 674,Electronics,Mobiles,4353.37
+312,Pillow Set 424,Home,Kitchen,318.31
+313,Self Help Guide 371,Books,Children,3132.04
+314,Storage Box 641,Home,Kitchen,2238.1
+315,Laptop Air 209,Electronics,Laptops,1371.93
+316,DSLR Camera 950,Electronics,Cameras,1475.74
+317,STORAGE BOX 125,Home,Kitchen,192.9
+318,comic BOOK 624,Books,Children,4006.6
+319,Smart Watch 319,Electronics,Mobiles,2776.65
+320,History Textbook 418,Books,Fiction,511.39
+321,Power Bank 473,Electronics,Mobiles,4737.95
+322,Travel Guide 853,Books,Children,812.16
+323,Casual Sneakers 522,Clothing,Footwear,3541.79
+324,WALL CLOCK 855,Home,Furniture,2438.37
+325,Curtain Set 250,Home,Bedding,2311.09
+326,Action Camera 393,Electronics,Mobiles,993.52
+327,Biography 521,Books,Academic,3744.15
+328,DSLR Camera 885,Electronics,Cameras,395.56
+329,Wall Clock 349,Home,Furniture,4674.53
+330,mystery novel 274,Books,Children,4111.72
+331,Casual Sneakers 744,Clothing,Footwear,1527.85
+332,Cook Book 594,Books,Fiction,4994.57
+333,Storage Box 887,Home,Kitchen,785.55
+334,Fairy Tales Collection 496,Books,Children,1758.36
+335,History Textbook 782,Books,Fiction,2739.98
+336,Pillow Set 956,Home,Kitchen,1642.8
+337,COTTON T-SHIRT 715,Clothing,Women,1232.09
+338,WOODEN CHAIR 240,Home,Decor,4287.26
+339,Wall Clock 45,Home,Furniture,1624.97
+340,Curtain Set 723,Home,Bedding,4571.48
+341,Wooden Chair 396,Home,Decor,4942.65
+342,travel GUIDE 156,Books,Children,2501.88
+343,LAPTOP PRO 130,Electronics,Accessories,2536.34
+344,Cook Book 340,Books,Fiction,4355.02
+345,Cotton Bedsheet 103,Home,Kitchen,2653.46
+346,Pillow Set 16,Home,Kitchen,3626.1
+347,wall CLOCK 892,Home,Furniture,3291.17
+348,Action Camera 77,Electronics,Mobiles,2373.98
+349,Winter Jacket 347,Clothing,Footwear,3135.13
+350,   Study Table 666   ,Home,Furniture,447.56
+351,Woolen Sweater 873,Clothing,Women,3388.07
+352,   Fairy Tales Collection 390   ,Books,Children,4772.99
+353,Comic Book 736,Books,Children,4442.82
+354,Storage Box 894,Home,Kitchen,2728.03
+355,Poetry Collection 71,Books,Fiction,1212.11
+356,Casual Sneakers 233,Clothing,Footwear,3746.49
+357,Table Lamp 101,Home,Decor,3813.83
+358,USB Cable 455,Electronics,Mobiles,873.51
+359,   Kids T-Shirt 926   ,Clothing,Kids,193.29
+360,Leather Belt 816,Clothing,Men,327.79
+361,NON STICK pan 384,Home,Bedding,2181.9
+362,Summer Dress 544,Clothing,Women,2089.66
+363,Tablet Mini 175,Electronics,Mobiles,916.59
+364,Poetry Collection 892,Books,Fiction,1943.59
+365,Summer Dress 510,Clothing,Women,4568.5
+366,Action Camera 238,Electronics,Mobiles,2332.69
+367,Winter Jacket 471,Clothing,Footwear,1313.87
+368,Smartphone X1 921,Electronics,Mobiles,4032.93
+369,Casual Sneakers 694,Clothing,Footwear,2755.66
+370,Wireless Mouse 453,Electronics,Laptops,4728.92
+371,   Cook Book 307   ,Books,Fiction,3212.75
+372,table lamp 707,Home,Decor,1287.99
+373,KIDS T-SHIRT 204,Clothing,Kids,4996.9
+374,Curtain Set 110,Home,Bedding,1224.17
+375,Science Textbook 368,Books,Academic,2895.32
+376,Casual Sneakers 23,Clothing,Footwear,4890.83
+377,Study Table 282,Home,Furniture,90.08
+378,   Laptop Air 933   ,Electronics,Laptops,3051.71
+379,Storage Box 853,Home,Kitchen,4525.57
+380,Casual Sneakers 795,Clothing,Footwear,4004.36
+381,Biography 822,Books,Academic,1793.99
+382,COMIC BOOK 195,Books,Children,3123.41
+383,DSLR Camera 644,Electronics,Cameras,530.96
+384,Comic Book 662,Books,Children,245.14
+385,Cotton Bedsheet 35,Home,Kitchen,2918.89
+386,dslr camera 93,Electronics,Cameras,4552.66
+387,Leather Belt 766,Clothing,Men,2106.74
+388,Cotton T-Shirt 136,Clothing,Women,3943.24
+389,Dinner Set 544,Home,Decor,2533.88
+390,Running Shoes 851,Clothing,Women,864.49
+391,Curtain Set 991,Home,Bedding,4042.12
+392,Woolen Sweater 824,Clothing,Women,620.09
+393,Wireless Mouse 145,Electronics,Laptops,3783.05
+394,   Formal Shirt 881   ,Clothing,Men,3397.8
+395,Study Table 991,Home,Furniture,4236.44
+396,   History Textbook 375   ,Books,Fiction,497.0
+397,STUDY TABLE 15,Home,Furniture,1359.07
+398,Power Bank 466,Electronics,Mobiles,1874.5
+399,Winter Jacket 599,Clothing,Footwear,1936.08
+400,Comic Book 963,Books,Children,1888.79
+401,Formal Shirt 483,Clothing,Men,173.87
+402,history textbook 336,Books,Fiction,4580.52
+403,Formal Shirt 664,Clothing,Men,362.92
+404,Pillow Set 932,Home,Kitchen,3520.33
+405,Travel Guide 419,Books,Children,627.55
+406,Laptop Pro 969,Electronics,Accessories,234.2
+407,Storage Box 119,Home,Kitchen,531.1
+408,Fairy Tales Collection 139,Books,Children,1973.8
+409,Dinner Set 687,Home,Decor,4749.43
+410,Fairy Tales Collection 430,Books,Children,2957.33
+411,Action Camera 907,Electronics,Mobiles,2103.68
+412,USB Cable 854,Electronics,Mobiles,2472.27
+413,Wall Clock 962,Home,Furniture,4760.03
+414,Laptop Pro 707,Electronics,Accessories,1884.12
+415,Cotton Bedsheet 456,Home,Kitchen,4755.25
+416,Dinner Set 102,Home,Decor,4905.59
+417,Dinner Set 558,Home,Decor,4513.4
+418,Travel Guide 368,Books,Children,349.72
+419,running shoes 195,Clothing,Women,4842.62
+420,Pillow Set 94,Home,Kitchen,3330.71
+421,Travel Guide 655,Books,Children,3005.87
+422,Smartphone Z2 52,Electronics,Mobiles,3944.63
+423,Summer Dress 129,Clothing,Women,3945.54
+424,Denim Jeans 71,Clothing,Women,4157.6
+425,History Textbook 213,Books,Fiction,2952.6
+426,Formal Shirt 337,Clothing,Men,3883.12
+427,Biography 3,Books,Academic,1422.51
+428,Action Camera 134,Electronics,Mobiles,2724.07
+429,Tablet Mini 113,Electronics,Mobiles,3322.24
+430,Smartphone Z2 135,Electronics,Mobiles,123.56
+431,Summer Dress 603,Clothing,Women,1652.67
+432,Tablet Mini 272,Electronics,Mobiles,309.38
+433,Wall Clock 539,Home,Furniture,612.56
+434,WIRELESS MOUSE 488,Electronics,Laptops,2268.96
+435,Dinner Set 526,Home,Decor,2988.65
+436,Cotton Bedsheet 516,Home,Kitchen,1146.67
+437,Poetry Collection 45,Books,Fiction,3649.85
+438,Self Help Guide 309,Books,Children,2317.31
+439,Smartphone Z2 63,Electronics,Mobiles,4993.0
+440,Study Table 437,Home,Furniture,3446.18
+441,Storage Box 730,Home,Kitchen,4553.02
+442,Wireless Mouse 921,Electronics,Laptops,449.91
+443,Biography 152,Books,Academic,375.13
+444,Running Shoes 640,Clothing,Women,3183.73
+445,History Textbook 730,Books,Fiction,1659.67
+446,Biography 544,Books,Academic,1509.74
+447,Mystery Novel 620,Books,Children,2179.49
+448,Power Bank 874,Electronics,Mobiles,3290.83
+449,history TEXTBOOK 739,Books,Fiction,4334.19
+450,table lamp 463,Home,Decor,4446.05
+451,wall clock 348,Home,Furniture,4145.73
+452,Study Table 426,Home,Furniture,3661.58
+453,leather belt 438,Clothing,Men,1596.99
+454,Winter Jacket 384,Clothing,Footwear,4770.28
+455,Curtain Set 69,Home,Bedding,501.56
+456,Bluetooth Headphones 96,Electronics,Laptops,2187.79
+457,Dinner Set 832,Home,Decor,694.07
+458,Laptop Air 601,Electronics,Laptops,4785.29
+459,History Textbook 338,Books,Fiction,3366.57
+460,Wall Clock 363,Home,Furniture,4374.36
+461,table LAMP 889,Home,Decor,4583.43
+462,   Laptop Air 992   ,Electronics,Laptops,1473.77
+463,kids t-shirt 361,Clothing,Kids,562.82
+464,Mystery Novel 218,Books,Children,815.91
+465,Curtain Set 230,Home,Bedding,4244.01
+466,Non Stick Pan 866,Home,Bedding,2803.51
+467,Power Bank 781,Electronics,Mobiles,1428.91
+468,Formal Shirt 827,Clothing,Men,2174.11
+469,History Textbook 998,Books,Fiction,3848.79
+470,Poetry Collection 629,Books,Fiction,3391.13
+471,History Textbook 27,Books,Fiction,3064.52
+472,Running Shoes 30,Clothing,Women,943.06
+473,KIDS T-SHIRT 944,Clothing,Kids,1732.13
+474,SMARTPHONE X1 186,Electronics,Mobiles,4355.82
+475,Science Textbook 674,Books,Academic,2033.88
+476,Action Camera 759,Electronics,Mobiles,3184.2
+477,Smartphone Z2 94,Electronics,Mobiles,3743.25
+478,Denim Jeans 386,Clothing,Women,2128.17
+479,Woolen Sweater 162,Clothing,Women,1881.76
+480,Leather Belt 796,Clothing,Men,4709.97
+481,   Biography 87   ,Books,Academic,4422.54
+482,Action Camera 162,Electronics,Mobiles,3784.46
+483,Laptop Air 691,Electronics,Laptops,453.83
+484,Cotton Bedsheet 678,Home,Kitchen,2148.87
+485,Biography 453,Books,Academic,2100.21
+486,Denim Jeans 774,Clothing,Women,2586.11
+487,Non Stick Pan 441,Home,Bedding,598.9
+488,cook BOOK 499,Books,Fiction,2658.32
+489,Kids T-Shirt 47,Clothing,Kids,1141.57
+490,Biography 57,Books,Academic,88.05
+491,Kids T-Shirt 969,Clothing,Kids,1095.61
+492,DSLR Camera 783,Electronics,Cameras,1314.82
+493,Leather Belt 123,Clothing,Men,88.26
+494,Table Lamp 180,Home,Decor,689.47
+495,Fairy Tales Collection 721,Books,Children,1189.05
+496,History Textbook 854,Books,Fiction,3356.84
+497,Non Stick Pan 74,Home,Bedding,2015.5
+498,LAPTOP PRO 447,Electronics,Accessories,142.77
+499,Wireless Mouse 883,Electronics,Laptops,1599.65
+500,Table Lamp 588,Home,Decor,2051.89
+501,Comic Book 428,Books,Children,1483.1
+502,Study Table 22,Home,Furniture,4832.69
+503,Smart Watch 821,Electronics,Mobiles,4740.69
+504,Pillow Set 852,Home,Kitchen,3463.57
+505,Dinner Set 91,Home,Decor,2211.72
+506,USB Cable 250,Electronics,Mobiles,2206.6
+507,Study Table 537,Home,Furniture,439.3
+508,Kids T-Shirt 764,Clothing,Kids,1730.59
+509,Woolen Sweater 798,Clothing,Women,882.26
+510,Mystery Novel 649,Books,Children,614.43
+511,Mystery Novel 199,Books,Children,4534.32
+512,Non Stick Pan 360,Home,Bedding,3650.53
+513,Travel Guide 835,Books,Children,781.06
+514,usb cable 150,Electronics,Mobiles,1317.04
+515,Tablet Mini 617,Electronics,Mobiles,806.71
+516,Travel Guide 78,Books,Children,926.87
+517,COMIC BOOK 506,Books,Children,2346.57
+518,Science Textbook 779,Books,Academic,2918.37
+519,Science Textbook 659,Books,Academic,3194.73
+520,poetry collection 331,Books,Fiction,4328.02
